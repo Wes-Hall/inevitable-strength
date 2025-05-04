@@ -82,6 +82,13 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      z-index: 2;
     }
 
     .card h3 {
@@ -130,32 +137,41 @@
   </div>
 
   <div class="plans">
-    <h2>Coaching Plans</h2>
+    <h2>Coaching Packages</h2>
     <div class="card-container">
-      <div class="card">
-        <h3>Static Programme – £50</h3>
-        <p>Highly curated App-based training plan with minimal contact. Great for independent lifters.</p>
-        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Static%20Programme">Choose Plan</a>
-      </div>
       <div class="card">
         <h3>Coaching – £75</h3>
         <p>Fully bespoke training with high-contact support. Weekly updates and feedback.</p>
-        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Online%20Coaching">Choose Plan</a>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Coaching">Choose Plan</a>
       </div>
       <div class="card">
         <h3>Coaching + 1 In-Person – £125</h3>
         <p>All benefits of online coaching plus one monthly face-to-face session.</p>
-        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%201%20Monthly%201-2-1">Choose Plan</a>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Coaching%20+%201%20In-Person">Choose Plan</a>
       </div>
       <div class="card">
         <h3>Coaching + 4 In-Person – £175</h3>
         <p>All benefits of online coaching with weekly in-person sessions for hands-on support and accountability.</p>
-        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%204%20Weekly%201-2-1">Choose Plan</a>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Coaching%20+%204%20In-Person">Choose Plan</a>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 60px;">Additions</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Static Programme – £50</h3>
+        <p>App-based training plan with minimal contact. Ideal for experienced and independent lifters.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Static%20Programme">Add On</a>
       </div>
       <div class="card">
-        <h3>Competition Handling – Price TBD</h3>
-        <p>On-the-day strategy, attempt selection, and performance coaching.</p>
-        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Competition%20Handling">Choose Plan</a>
+        <h3>1-2-1 Session – £50</h3>
+        <p>Book an extra in-person coaching session at any time to focus on technique or prep.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%201-2-1%20Session">Add On</a>
+      </div>
+      <div class="card">
+        <h3>Competition Handling – TBA</h3>
+        <p>On-the-day strategy, attempt selection, and full performance coaching. Contact to discuss pricing.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Competition%20Handling">Add On</a>
       </div>
     </div>
   </div>
