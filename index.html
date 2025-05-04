@@ -63,6 +63,25 @@
       min-width: 220px;
     }
 
+    .instagram-icon {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 10;
+    }
+
+    .instagram-icon img {
+      width: 32px;
+      height: 32px;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      opacity: 0.85;
+    }
+
+    .instagram-icon img:hover {
+      transform: scale(1.15);
+      opacity: 1;
+    }
+
     .plans {
       padding: 60px 20px;
       text-align: center;
@@ -140,23 +159,11 @@
       font-weight: bold;
       text-decoration: none;
     }
-
-    .instagram-icon {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      z-index: 10;
-    }
-
-    .instagram-icon img {
-      width: 32px;
-      height: 32px;
-    }
   </style>
 </head>
 <body>
 
-  <!-- Instagram icon in top left -->
+  <!-- Instagram icon -->
   <a href="https://instagram.com/inevitablestrength" target="_blank" class="instagram-icon">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
   </a>
