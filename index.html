@@ -73,3 +73,155 @@
     }
 
     .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: left;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      z-index: 2;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #2b6cb0;
+    }
+
+    .card p {
+      font-size: 16px;
+      margin: 10px 0;
+      flex-grow: 1;
+    }
+
+    .card a {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #2b6cb0;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+      display: block;
+    }
+
+    .faq-section {
+      background-color: #e8eef7;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 50px;
+      padding-bottom: 30px;
+    }
+
+    .social a {
+      color: #2b6cb0;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Inevitable Strength</h1>
+    <p>Elite Strength Coaching – In-Person & Online</p>
+    <a href="mailto:inevitablestrength@outlook.com?subject=General%20Coaching%20Enquiry">
+      Start Your Strength Journey
+    </a>
+  </div>
+
+  <div class="plans">
+    <h2>Coaching Packages</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Coaching – £75</h3>
+        <p>Fully bespoke training with high-contact support. Weekly updates and feedback.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Coaching">Choose Plan</a>
+      </div>
+      <div class="card">
+        <h3>Coaching + 1 In-Person – £125</h3>
+        <p>All benefits of online coaching plus one monthly face-to-face session.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Coaching%20+%201%20In-Person">Choose Plan</a>
+      </div>
+      <div class="card">
+        <h3>Coaching + 4 In-Person – £175</h3>
+        <p>All benefits of online coaching with weekly in-person sessions for hands-on support and accountability.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Coaching%20+%204%20In-Person">Choose Plan</a>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 60px;">Additions</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Static Programme – £50</h3>
+        <p>App-based training plan with minimal contact. Ideal for experienced and independent lifters.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Static%20Programme">Add On</a>
+      </div>
+      <div class="card">
+        <h3>1-2-1 Session – £50</h3>
+        <p>Book an extra in-person coaching session at any time to focus on technique or prep.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%201-2-1%20Session">Add On</a>
+      </div>
+      <div class="card">
+        <h3>Competition Handling – TBA</h3>
+        <p>On-the-day strategy, attempt selection, and full performance coaching. Contact to discuss pricing.</p>
+        <a href="mailto:inevitablestrength@outlook.com?subject=Enquiry%20-%20Competition%20Handling">Add On</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <h2 style="color: #2b6cb0; font-size: 36px; margin-bottom: 30px;">FAQs</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Who is coaching suitable for?</h3>
+        <p>Anyone committed to getting stronger — from beginners to competitive lifters. Plans are fully tailored to your level, experience, and goals.</p>
+      </div>
+      <div class="card">
+        <h3>What’s included in online coaching?</h3>
+        <p>Custom programming, video feedback, technique guidance, and weekly check-ins. You'll have direct access to me for support and progression.</p>
+      </div>
+      <div class="card">
+        <h3>Where are the in-person sessions held?</h3>
+        <p>All face-to-face coaching is based in your local gym or a mutually agreed location. Contact me to discuss availability.</p>
+      </div>
+      <div class="card">
+        <h3>Can I combine add-ons with any package?</h3>
+        <p>Absolutely. Whether you need an extra 1-2-1 or competition support, add-ons can be booked alongside any coaching package.</p>
+      </div>
+      <div class="card">
+        <h3>Do you offer competition day support?</h3>
+        <p>Yes — I offer full meet-day handling including warm-up timing, attempt selection, and headspace management. Pricing is TBA depending on location and level of support.</p>
+      </div>
+      <div class="card">
+        <h3>How do I get started?</h3>
+        <p>Click on any "Choose Plan" or "Add On" button, and send me a message with your goals. I’ll guide you through the next steps from there.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="social">
+    Follow on Instagram:
+    <a href="https://instagram.com/inevitablestrength" target="_blank">@inevitablestrength</a>
+  </div>
+</body>
+</html>
